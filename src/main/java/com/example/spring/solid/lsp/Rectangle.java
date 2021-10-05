@@ -1,5 +1,6 @@
 package com.example.spring.solid.lsp;
 
+// 직사각형
 public class Rectangle {
 
     private int width;

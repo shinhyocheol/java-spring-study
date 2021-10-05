@@ -12,6 +12,13 @@ public class Main {
 
     public static void main(String[] args) {
 
+        Rectangle rectangle = new Rectangle();
+        Square square = new Square();
+
+        Main main = new Main();
+
+        main.increaseHeight(rectangle);
+        main.increaseHeight(square);
         /**
          * Rectangle과 이를 상속하는 Square의 객체를 생성하고
          * 해당 객체를 이용해 increaseHeight를 호출한다면??

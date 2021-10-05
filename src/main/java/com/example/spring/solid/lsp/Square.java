@@ -1,5 +1,6 @@
 package com.example.spring.solid.lsp;
 
+// 정사각형은 직사각형을 상속받았다.
 public class Square extends Rectangle{
 
     @Override
