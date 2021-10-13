@@ -2,7 +2,7 @@ package com.example.spring.solid.lsp;
 
 public class Main {
 
-    public void increaseHeight(final Rectangle rectangle) {
+    public void increaseHeight(Rectangle rectangle) {
 
         if (rectangle.getHeight() <= rectangle.getWidth()) {
             rectangle.setHeight(rectangle.getWidth() + 1);
@@ -12,8 +12,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Rectangle rectangle = new Rectangle();
-        Square square = new Square();
+        Rectangle rectangle = new Rectangle();  // 직사각형
+        Square square = new Square();           // 직사각형을 상속받는 정사각형
 
         Main main = new Main();
 
