@@ -1,4 +1,4 @@
-package com.example.spring.solid.lsp;
+package com.example.spring.oop.solid.lsp;
 
 public class Main {
 

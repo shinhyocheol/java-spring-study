@@ -1,4 +1,4 @@
-package com.example.spring.solid.lsp;
+package com.example.spring.oop.solid.lsp;
 
 // 정사각형은 직사각형을 상속받았다.
 public class Square extends Rectangle{
