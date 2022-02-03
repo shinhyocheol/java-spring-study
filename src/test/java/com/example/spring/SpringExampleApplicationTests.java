@@ -12,7 +12,17 @@ class SpringExampleApplicationTests {
     @Test
     void contextLoads() {
 
-//        List<EnumExample> list = EnumExample.
+        List<EnumExample> list = EnumExample.CODES;
+        int count = 0;
+        EnumExample key = list.get(count);
+        count++;
+
+        if (count == list.size()) {
+            count = 0;
+        }
+
+        System.out.println(key.getName());
+        System.out.println(key.getValue());
 
     }
 

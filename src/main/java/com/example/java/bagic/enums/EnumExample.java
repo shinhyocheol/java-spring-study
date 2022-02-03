@@ -12,7 +12,7 @@ public enum EnumExample {
     private String name;
     private Integer value;
 
-    private static final List<EnumExample> CODES = Arrays.asList(values());
+    public static final List<EnumExample> CODES = Arrays.asList(values());
 
     EnumExample(String name, Integer value) {
         this.name = name;
@@ -24,9 +24,6 @@ public enum EnumExample {
     }
     public Integer getValue() {
         return this.value;
-    }
-    public List<EnumExample> getValues() {
-        return CODES;
     }
 
 }
