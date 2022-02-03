@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a13c2c2-3b1e-4bc6-a76a-78d219d0a260" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/spring/oop/solid/lsp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/spring/oop/solid/lsp/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="2a13c2c2-3b1e-4bc6-a76a-78d219d0a260" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643851196973</updated>
-      <workItem from="1643851198193" duration="538000" />
+      <workItem from="1643851198193" duration="591000" />
     </task>
     <servers />
   </component>

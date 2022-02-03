@@ -3,7 +3,7 @@ package com.example.spring.oop.solid.lsp;
 public class Main {
 
     public void increaseHeight(Rectangle rectangle) {
- 
+
         if (rectangle.getHeight() <= rectangle.getWidth()) {
             rectangle.setHeight(rectangle.getWidth() + 1);
         }
