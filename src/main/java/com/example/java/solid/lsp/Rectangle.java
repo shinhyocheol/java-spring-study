@@ -1,4 +1,4 @@
-package com.example.spring.oop.solid.lsp;
+package com.example.java.solid.lsp;
 
 // 직사각형
 public class Rectangle {
