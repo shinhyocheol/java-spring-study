@@ -1,6 +1,6 @@
 package com.example.java.solid.lsp;
 
-public class Main {
+public class LSP {
 
     public void increaseHeight(Rectangle rectangle) {
 
@@ -15,7 +15,7 @@ public class Main {
         Rectangle rectangle = new Rectangle();  // 직사각형
         Square square = new Square();           // 직사각형을 상속받는 정사각형
 
-        Main main = new Main();
+        LSP main = new LSP();
 
         main.increaseHeight(rectangle);
         main.increaseHeight(square);

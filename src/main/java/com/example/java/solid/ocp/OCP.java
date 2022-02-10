@@ -3,7 +3,7 @@ package com.example.java.solid.ocp;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class OCP {
 
     /**
      * OCP(Open Close Principle) : 개방폐쇄의 원칙
