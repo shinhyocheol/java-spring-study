@@ -1,4 +1,4 @@
-package com.example.java.bagic.enums;
+package com.example.java.bagic;
 
 import java.util.Arrays;
 import java.util.List;

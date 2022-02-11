@@ -1,6 +1,6 @@
 package com.example.spring;
 
-import com.example.java.bagic.enums.EnumExample;
+import com.example.java.bagic.EnumExample;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
