@@ -24,7 +24,7 @@ class SpringExampleApplicationTests {
             count = 0;
         }
 
-        System.out.println(key.getName());   
+        System.out.println(key.getName());
         System.out.println(key.getValue());
 
     }

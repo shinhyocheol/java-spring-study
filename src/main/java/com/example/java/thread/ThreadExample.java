@@ -8,7 +8,15 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 public class ThreadExample {
-
+    /**
+     * @decription ThreadPoolExecutor는 왜 사용할까?? 쓰레드를 무한으로 늘리게 되는 경우 성능저하가 일어나게된다.
+     * 쓰레드도 하나의 자원이므로 계속적으로 소모되면 자원이 고갈되고 메모리풀로 인해 서버가 다운될 수 있다.
+     * 서버 입장에서 가장 중요한 것은 어떠한 상황과 마주하더라도 다운되지 않고 안정적으로 운영되는 것이다.
+     * 따라서 작업 요청이 들어올때마다 쓰레드를 생성하는 것이 아니라 쓰레드를 미리 만들어 놓고 재사용 하는 방식으로 위험요소를 줄일 수 있다.(쓰레드 풀)
+     * 이를 위해서 자바에서는 ThreadPoolExecutor 클래스를 지원한다.
+     * @param args
+     * @throws InterruptedException
+     */
     public static void main(String[] args) throws InterruptedException {
 
         int numTasks = 60;
